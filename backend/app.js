@@ -1,9 +1,12 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
+import { fileURLToPath } from 'node:url';
 import express from 'express';
 import cors from 'cors';
 import mysql from 'mysql2/promise';
 import { calcSafetyStock, calcReorderPoint, findDuplicateOrders, makeMovementEntries } from './src/domain.js';
 import { askInventoryAgent } from './src/inventory-agent.js';
+
+dotenv.config({ path: fileURLToPath(new URL('../.env', import.meta.url)) });
 
 const app = express();
 const allowedOrigins = new Set([process.env.CORS_ORIGIN, 'http://localhost:5173', 'http://127.0.0.1:5173'].filter(Boolean));
