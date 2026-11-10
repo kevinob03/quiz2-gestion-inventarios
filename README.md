@@ -4,9 +4,16 @@ Aplicación de inventarios con cliente React + Vite, API Node.js + Express y bas
 
 ## Estructura
 
-- backend/: API, reglas del dominio, integración Gemini, pruebas y scripts SQL.
-- frontend/: interfaz React y configuración Vite.
-- docs/ y output/: informe y guiones del quiz.
+- backend/app.js configura Express y conecta las rutas.
+- backend/routes/ define los endpoints de la API.
+- backend/controllers/ valida solicitudes y prepara respuestas.
+- backend/models/ concentra las consultas y transacciones de MySQL.
+- backend/src/ contiene reglas del dominio y el asistente Gemini.
+- frontend/src/components/ contiene piezas reutilizables de interfaz.
+- frontend/src/pages/ contiene las vistas del sistema.
+- frontend/src/routes/ asocia la navegación con las vistas.
+- frontend/src/App.jsx integra la aplicación; frontend/src/main.jsx la monta en el navegador.
+- docs/ y output/ conservan el informe y los guiones del quiz.
 
 ## Requisitos
 
