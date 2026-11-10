@@ -1,4 +1,4 @@
-# Control de inventario · Constructora Del Valle
+# Control de inventario · Constructora del Pacífico
 
 Aplicación de inventarios con cliente React + Vite, API Node.js + Express y base de datos MySQL 8. El asistente de inventario consulta datos usando Gemini.
 

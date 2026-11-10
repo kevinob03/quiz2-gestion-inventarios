@@ -114,7 +114,7 @@ export default function App() {
           <div className="content">
             <div className="heading">
               <div>
-                <div className="eyebrow">CONSTRUCTORA DEL VALLE S.A.</div>
+                <div className="eyebrow">CONSTRUCTORA DEL PACÍFICO S.A.</div>
                 <h1>{page}</h1>
                 <p>{activeRoute.subtitle}</p>
               </div>
