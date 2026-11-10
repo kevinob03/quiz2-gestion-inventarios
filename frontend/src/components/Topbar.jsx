@@ -1,3 +1,4 @@
+import React from 'react';
 export default function Topbar({ page, apiStatus }) {
   return (
     <header className="topbar">

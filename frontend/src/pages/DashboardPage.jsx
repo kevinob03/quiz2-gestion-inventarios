@@ -1,3 +1,4 @@
+import React from 'react';
 import EmptyState from '../components/EmptyState.jsx';
 import StatCard from '../components/StatCard.jsx';
 import { date } from '../services/api.js';

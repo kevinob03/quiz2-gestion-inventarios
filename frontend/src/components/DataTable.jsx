@@ -1,3 +1,4 @@
+import React from 'react';
 import EmptyState from './EmptyState.jsx';
 
 export default function DataTable({ headers, rows, empty, actions }) {

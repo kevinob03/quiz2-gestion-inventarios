@@ -1,3 +1,4 @@
+import React from 'react';
 import DashboardPage from '../pages/DashboardPage.jsx';
 import InventoryPage from '../pages/InventoryPage.jsx';
 

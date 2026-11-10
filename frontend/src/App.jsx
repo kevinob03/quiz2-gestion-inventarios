@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import ActionButton from './components/ActionButton.jsx';
 import InventoryAssistant from './components/InventoryAssistant.jsx';
 import Sidebar from './components/Sidebar.jsx';

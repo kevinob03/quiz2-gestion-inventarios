@@ -1,3 +1,4 @@
+import React from 'react';
 import { APP_ROUTES } from '../routes/routeConfig.js';
 
 export default function Sidebar({ page, alertCount, onNavigate }) {

@@ -1,3 +1,4 @@
+import React from 'react';
 export function ErrorNotice({ message, onRetry }) {
   if (!message) return null;
   return (
